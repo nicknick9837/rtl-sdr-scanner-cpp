@@ -4,8 +4,8 @@
       "device_serial": "auto",
       "ranges": [
         {
-          "start": 144000000,
-          "stop": 146000000,
+          "start": 140000000,
+          "stop": 150000000,
           "sample_rate": 2048000
         }
       ]
@@ -25,9 +25,9 @@
     }
   },
   "recording": {
-    "max_noise_time_ms": 500,
-    "min_time_ms": 2000,
-    "min_sample_rate": 16000
+    "max_noise_time_ms": 300,
+    "min_time_ms": 1500,
+    "min_sample_rate": 8000
   },
   "detection": {
     "frequency_grouping_size": 10000,
@@ -42,7 +42,7 @@
     "console_log_level": "info"
   },
   "cores": 4,
-  "memory_limit_mb": 0,
+  "memory_limit_mb": 100,
   "mqtt": {
     "hostname": "sdr-broker",
     "port": 1883,
